@@ -1,6 +1,6 @@
-import { app, port } from './app.js';
-import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import mongoose from 'mongoose';
+import { app, port } from './app.js';
 
 dotenv.config();
 const startServer = async () => {
@@ -17,5 +17,4 @@ const startServer = async () => {
     console.log(error);
   }
 };
-
 startServer();

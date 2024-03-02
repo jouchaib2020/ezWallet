@@ -8,7 +8,7 @@ In cases where the APIs return an error the correct structure to follow is:
 res.status(errorCode).json({ error: "Error message" });
 ```
 
-The actual value of the `error`, `message`, and `refreshedTokenMessage` attributes, where required, does not matter as long as the attributes are included in the return object (any string is accepted).
+The actual value of `error`, `message`, and `refreshedTokenMessage` attributes, where required, does not matter as long as the attributes are included in the return object (any string is accepted).
 Route parameters (where needed) cannot be empty, as not having them would define a new route, leading to a 404 error in Postman.
 
 The functions that require Simple, User, and Admin authentication must have the necessary checks performed before any other check, the functions that require Group authentication must first check if the requested group, then check for authentication, and then perform any other additional check.

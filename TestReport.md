@@ -26,7 +26,7 @@ step3: unit testing of C<br>
 step4: integration testing of A<br>
 step5: integration testing of B<br>
 step6: integration testing of C<br>
-Where A,B,C rappresent different modules of the API.
+Where A,B,C represent different modules of the API.
 
 # Tests
 

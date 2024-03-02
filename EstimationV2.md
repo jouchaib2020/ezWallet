@@ -59,10 +59,6 @@ Consider the EZWallet project in FUTURE version (as proposed by the team), assum
 | Estimation Document                       | 1                               |
 | Hypothetica Code Production               | 180                             |
 
-###
-
-![gantt chart](assets/diagrams/ganttv2.png "Gantt Chart")
-
 # Summary
 
 Report here the results of the three estimation approaches. The estimates may differ. Discuss here the possible reasons for the difference
